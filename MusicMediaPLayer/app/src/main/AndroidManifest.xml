@@ -11,6 +11,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
+        android:name=".ApplicationClass"
         android:theme="@style/Theme.MusicMediaPLayer"
         tools:targetApi="31">
         <activity
@@ -28,6 +29,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service android:name="com.app1.musicmediaplayer.MusicService"  android:enabled="true"/>
     </application>
 
 </manifest>
